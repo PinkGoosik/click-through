@@ -6,28 +6,19 @@
     "entrypoints": {
         "client": [ "de.guntram.mcmod.clickthrough.ClickThrough" ]
     },
-    "custom": {
-        "modupdater": {
-            "strategy": "json",
-            "url": "https://raw.githubusercontent.com/gbl/ModVersionInfo/master/ClickThrough.json"
-        }
-    },
     "mixins": [
       "clickthrough.mixins.json"
     ],
     "depends": {
         "fabric-api": "*"
     },
-    "recommends": {
-      "modmenu" : "*"
-    },
-    "name": "ClickThrough",
+    "name": "Click Through Updated",
     "description": "Click through signs and item frames to chests and other containers",
     "icon": "icon.png",
     "authors": [ "Giselbaer", "PinkGoosik" ],
     "contact": {
-        "homepage": "https://curseforge.com/minecraft/mc-mods/clickthrough",
-        "sources": "https://github.com/gbl/ClickThrough",
-        "issues": "https://github.com/gbl/ClickThrough/issues"
+        "homepage": "https://modrinth.com/project/click-through-updated",
+        "sources": "https://github.com/PinkGoosik/click-through",
+        "issues": "https://github.com/PinkGoosik/click-through/issues"
     }
 }
